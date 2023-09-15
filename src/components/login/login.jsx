@@ -11,9 +11,9 @@ const Login = () => {
     <>
       <div className="f-container">
         <div className="welcome">
-          <h1>Welcome to Diprella !</h1>
+          <h1>Welcome to Ecommerice !</h1>
           <p>
-            Diprella is a platform for you to find the best deals in your area.
+            DEcommerice is a platform for you to find the best deals in your area.
             We are here to help you discover new products and services that will
             make your life easier!
           </p>
