@@ -67,7 +67,7 @@ const Login = () => {
                 setAction("Login");
               }}
             >
-              Login
+              <Link to="./home">Login</Link>
             </div>
           </div>
           <div className="socialMedia">
@@ -83,7 +83,6 @@ const Login = () => {
                 <i class="fab fa-instagram"></i>
               </button>
             </div>
-            <Link to="./home">Home</Link>
           </div>
         </div>
       </div>

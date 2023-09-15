@@ -8,12 +8,12 @@ const Navbar = () => {
     <>
       <header className="header">
         <div className="container d_flex">
-          <div className="catgrories d_flex">
+          {/* <div className="catgrories d_flex">
             <span class="fa-solid fa-border-all"></span>
             <h4>
               Categories <i className="fa fa-chevron-down"></i>
             </h4>
-          </div>
+          </div> */}
 
           <div className="navlink">
             <ul
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Link to="/pages">pages</Link>
               </li>
               <li>
-                <Link to="/login">user account</Link>
+                <Link to="/user">user account</Link>
               </li>
               <li>
                 <Link to="/vendor">vendor account</Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link to="/track">track my order</Link>
               </li>
               <li>
-                <Link to="/contact">contact</Link>
+                <Link to="/login">sign out</Link>
               </li>
             </ul>
 

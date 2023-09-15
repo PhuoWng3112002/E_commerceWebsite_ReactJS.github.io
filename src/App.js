@@ -7,7 +7,6 @@ import Data from "./components/Data";
 import Cart from "./common/Cart/Cart";
 import Footer from "./common/footer/Footer";
 import Sdata from "./components/shops/Sdata";
-import User from "./common/User/User";
 import Login from "./components/login/login";
 function App() {
   /*
@@ -109,12 +108,6 @@ function App() {
         </Route>
         <Route path="/user" exact>
           <Header CartItem={CartItem} />
-
-          <User
-            productItems={productItems}
-            addToCart={addToCart}
-            shopItems={shopItems}
-          />
           <Footer />
         </Route>
         <Route path="/cart" exact>
@@ -125,6 +118,20 @@ function App() {
             addToCart={addToCart}
             decreaseQty={decreaseQty}
           />
+          <Footer />
+        </Route>
+        <Route path="/vendor" exact>
+          <Header CartItem={CartItem} />
+
+          <Footer />
+        </Route>
+        <Route path="/track" exact>
+          <Header CartItem={CartItem} />
+          <Footer />
+        </Route>
+        <Route path="/pages" exact>
+          <Header CartItem={CartItem} />
+
           <Footer />
         </Route>
       </Router>
