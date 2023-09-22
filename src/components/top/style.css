@@ -11,7 +11,7 @@
   width: 100%;
 }
 .TopCate .nametop span {
-  background: #0f3460;
+  background: #e94560;
   color: #fff;
   font-size: 12px;
   padding: 5px 10px;
@@ -28,4 +28,19 @@
   color: black;
   position: absolute;
   right: 0;
+}
+.e_center {
+  text-align: center !important ;
+}
+.e_center p {
+  color: gray;
+  font-size: 17px;
+  padding: 15px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.product .img_flash {
+  width: 100%;
 }

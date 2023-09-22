@@ -70,7 +70,7 @@
 }
 /*------search-----------*/
 .catgrories {
-  background-color: #f6f9fc;
+  background-color: #e94560;
   padding: 0px 30px;
   border-radius: 5px;
   height: 6vh;
@@ -80,10 +80,12 @@
   margin-right: 20px;
   font-size: 30px;
   margin-top: 10px;
+  color: #fff;
 }
 .catgrories h4 {
   font-weight: 500;
   margin-top: 12px;
+  color: #fff;
 }
 .catgrories h4 i {
   margin-left: 10px;
@@ -175,8 +177,16 @@ header ul li a:hover {
   }
 }
 /***********/
+.logo .width {
+  width: 500px;
+}
 .logo p {
   font-size: 30px;
   font-weight: 700;
+  color: #e94560;
+}
+/**********sign out****************/
+.signout a {
+  font-weight: bold;
   color: #e94560;
 }

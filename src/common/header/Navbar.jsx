@@ -8,12 +8,12 @@ const Navbar = () => {
     <>
       <header className="header">
         <div className="container d_flex">
-          {/* <div className="catgrories d_flex">
-            <span class="fa-solid fa-border-all"></span>
+          <div className="catgrories d_flex">
+            <span class="fa fa-bars"></span>
             <h4>
-              Categories <i className="fa fa-chevron-down"></i>
+              Browsers Categories <i className="fa fa-chevron-down"></i>
             </h4>
-          </div> */}
+          </div>
 
           <div className="navlink">
             <ul
@@ -33,12 +33,12 @@ const Navbar = () => {
                 <Link to="/user">user account</Link>
               </li>
               <li>
-                <Link to="/vendor">vendor account</Link>
+                <Link to="/vendor">contact</Link>
               </li>
               <li>
-                <Link to="/track">track my order</Link>
+                <Link to="/track">about us</Link>
               </li>
-              <li>
+              <li className="signout">
                 <Link to="/login">sign out</Link>
               </li>
             </ul>

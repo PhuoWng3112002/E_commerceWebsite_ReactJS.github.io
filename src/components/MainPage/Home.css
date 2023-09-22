@@ -27,3 +27,18 @@
   left: 0;
   margin: auto;
 }
+
+.homeSlide .price_slide {
+  font-size: 40px;
+  padding-top: 30px;
+  color: #e94560;
+}
+.homeSlide .img_slide {
+  height: 350px;
+}
+.homeSlide {
+  background-color: #f8f8f8;
+}
+.home {
+  background-color: #f8f8f8;
+}

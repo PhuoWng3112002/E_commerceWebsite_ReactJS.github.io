@@ -2,3 +2,18 @@
   background: #f6f9fc;
   padding: 50px 0;
 }
+.e_center {
+  text-align: center !important ;
+}
+.e_center p {
+  color: gray;
+  font-size: 17px;
+  padding: 15px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.product .img_flash {
+  width: 100%;
+}

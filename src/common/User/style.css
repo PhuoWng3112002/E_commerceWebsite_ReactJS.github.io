@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  padding-left: 35px;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper .category {
+  width: 300px;
+  transform: translateY(-10%);
+}
+.wrapper .infor {
+  text-align: start;
+  width: 50px;
+}
+.wrapper .v {
+  margin-top: 10px;
+}

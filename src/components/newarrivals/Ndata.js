@@ -1,34 +1,34 @@
 const Ndata = [
   {
-    cover: "./images/arrivals/arrivals1.png",
-    name: "Sunglass",
+    cover: "./images/arrivals/a1.jpg",
+    name: "Henectus tincidunct",
     price: "150",
   },
   {
-    cover: "./images/arrivals/arrivals2.png",
-    name: "Makeup",
+    cover: "./images/arrivals/a2.jpg",
+    name: "Penatibus parturient",
     price: "250",
   },
   {
-    cover: "./images/arrivals/arrivals3.png",
-    name: "Smart Watch",
+    cover: "./images/arrivals/a3.jpg",
+    name: "Classic wooden chair",
     price: "50",
   },
   {
-    cover: "./images/arrivals/arrivals4.png",
-    name: "Lipstick",
+    cover: "./images/arrivals/a4.jpg",
+    name: "Decoration wooden ",
     price: "15",
   },
   {
-    cover: "./images/arrivals/arrivals5.png",
-    name: "Green Plant",
+    cover: "./images/arrivals/a5.jpg",
+    name: "Slatea suspendisse",
     price: "10",
   },
   {
-    cover: "./images/arrivals/arrivals6.png",
-    name: "Bonsai tree",
+    cover: "./images/arrivals/a6.jpg",
+    name: "Decoration for table",
     price: "400",
   },
-]
+];
 
-export default Ndata
+export default Ndata;

@@ -20,14 +20,14 @@
 }
 .shop .category img {
   width: auto;
-  height: auto;
+  height: 50px;
 }
 .shop .category .box:hover {
   background-color: #fff;
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
 .shop .box2 {
-  margin-top: 100px !important;
+  margin-top: 90px !important;
   text-align: center;
 }
 .shop .category button {
